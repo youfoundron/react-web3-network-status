@@ -1,0 +1,13 @@
+{
+  presets: [
+    "flow",
+    "react",
+    "es2015"
+  ],
+  plugins: [
+    "styled-jsx/babel",
+    "transform-regenerator",
+    "transform-object-rest-spread",
+    "react-flow-props-to-prop-types"
+  ]
+}
