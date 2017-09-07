@@ -1,0 +1,27 @@
+{
+  "name": "react-web3-network-status",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rongierlach/react-web3-network-status.git"
+  },
+  "keywords": [
+    "react",
+    "web3",
+    "network",
+    "testnet",
+    "status",
+    "metamask"
+  ],
+  "author": "https://github.com/rongierlach",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rongierlach/react-web3-network-status/issues"
+  },
+  "homepage": "https://github.com/rongierlach/react-web3-network-status#readme"
+}
