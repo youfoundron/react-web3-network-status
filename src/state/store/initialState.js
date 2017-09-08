@@ -21,4 +21,5 @@ const initialState: State = {
   defaultAccount: null
 }
 
+export type { State }
 export default initialState
