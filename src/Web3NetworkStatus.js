@@ -1,18 +1,14 @@
-import React from 'react'
 import { connect } from 'react-redux'
+import { selectNetworkRenderer } from './state/constants/selectors'
 
-const Web3NetworkStatus = (props) => {
-  return (
-    <div>
-      <p>Network Id: {props.network.id}</p>
-      <p>Network Listening: {String(props.network.listening)}</p>
-      <p>Network PeerCount: {props.network.peerCount}</p>
-      <p>Num Accounts: {props.accounts.length}</p>
-      <p>Default Account: {props.defaultAccount}</p>
-    </div>
-  )
-}
+const Web3NetworkStatus = ({ dispatch, networkRenderer, ...props }) => (
+  networkRenderer(props)
+)
+
+const mapStateToProps = (state, ownProps) => ({
+  networkRenderer: selectNetworkRenderer(state, ownProps)
+})
 
 export default connect(
-  state => ({...state})
+  mapStateToProps
 )(Web3NetworkStatus)
