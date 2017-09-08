@@ -9,7 +9,7 @@ const getDefaultAccount = function * () {
 }
 
 const checkDefaultAccountChanged = function * ({ payload: accounts = [] }) {
-  const newDefaultAccount = accounts[0]
+  const newDefaultAccount = accounts[0] || null
   const oldDefaultAccount = yield select(state => state.defaultAccount)
   if (newDefaultAccount !== oldDefaultAccount) {
     yield put({type: types.CHANGED_DEFAULT_ACCOUNT, payload: newDefaultAccount})
