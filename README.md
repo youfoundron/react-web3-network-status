@@ -1,7 +1,7 @@
-<h1 style="text-align: center;" markdown="1">React Web3 Network Status</h1>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/4658359/30234946-21873ec8-94c8-11e7-88ee-296b098a49f8.gif" />
-</p>
+<h1 align="center" markdown="1">React Web3 Network Status</h1>
+<p align="center"><img
+  src="https://user-images.githubusercontent.com/4658359/30234946-21873ec8-94c8-11e7-88ee-296b098a49f8.gif"
+/></p>
 
 A MetaMask inspired badge to tell users the status of their network connectivity.
 
