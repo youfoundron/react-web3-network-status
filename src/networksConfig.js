@@ -33,6 +33,7 @@ export default [
     name: 'ethereum',
     type: 'main net',
     color: colors.forest,
+    etherScanUrl: 'https://etherscan.io',
     iconStyles: {
       ...defaultIconStyles,
       background: colors.forest,
@@ -44,6 +45,7 @@ export default [
     name: 'ropsten',
     type: 'test net',
     color: colors.darkRed,
+    etherScanUrl: 'https://ropsten.etherscan.io',
     iconStyles: {
       ...defaultIconStyles,
       ...circleIconStyles,
@@ -55,6 +57,7 @@ export default [
     name: 'rinkeby',
     type: 'test net',
     color: colors.gold,
+    etherScanUrl: 'https://rinkeby.etherscan.io',
     iconStyles: {
       ...defaultIconStyles,
       width: '1.5em',
@@ -67,6 +70,7 @@ export default [
     name: 'kovan',
     type: 'test net',
     color: colors.purple,
+    etherScanUrl: 'https://kovan.etherscan.io',
     iconStyles: {
       ...defaultIconStyles,
       border: `solid .3em ${colors.purple}`,
@@ -86,10 +90,10 @@ export default [
       background: colors.blue
     }
   },
-  { // Not Listening to the blockchain
+  { // Not listening to the blockchain
     id: 'not-listening',
     name: 'no node',
-    type: 'need provider',
+    type: 'must connect',
     color: colors.darkGrey,
     iconStyles: {
       ...defaultIconStyles,
@@ -98,9 +102,9 @@ export default [
       background: colors.darkGrey
     }
   },
-  { // No unlocked account
+  { // No unlocked accounts
     id: 'account-not-unlocked',
-    name: 'account locked',
+    name: 'no accounts',
     type: 'please unlock',
     color: colors.darkGrey,
     iconStyles: {
