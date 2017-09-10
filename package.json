@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/rongierlach/react-web3-network-status#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "prop-types": "^15.5.10",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
@@ -62,7 +63,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "babel-runtime": "^6.26.0",
-    "bluebird": "^3.5.0",
     "coveralls": "^2.13.1",
     "css-loader": "^0.28.7",
     "file-loader": "^0.11.2",
