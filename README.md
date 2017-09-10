@@ -9,7 +9,10 @@
   <a href="https://david-dm.org/rongierlach/react-web3-network-status">
     <img src="https://david-dm.org/rongierlach/react-web3-network-status.svg" />
   </a>
-  <a href="https://david-dm.org/rongierlach/react-web3-network-status#info=devDependencies">
+  <a href="https://david-dm.org/rongierlach/react-web3-network-status?type=peer">
+    <img src="https://david-dm.org/rongierlach/react-web3-network-status/peer-status.svg" />
+  </a>
+  <a href="https://david-dm.org/rongierlach/react-web3-network-status?type=dev">
     <img src="https://david-dm.org/rongierlach/react-web3-network-status/dev-status.svg" />
   </a>
   <a href="https://standardjs.com">
