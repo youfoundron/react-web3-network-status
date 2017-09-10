@@ -14,7 +14,7 @@ Fully customizable.
 Using npm:  
 `$ npm install --save react-web3-network-status`  
 
-Using yarn  
+Using yarn:  
 `$ yarn add react-web3-network-status`
 
 ## Usage
