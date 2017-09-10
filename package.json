@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/rongierlach/react-web3-network-status#readme",
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-saga": "^0.15.6"
@@ -66,7 +67,6 @@
     "css-loader": "^0.28.7",
     "file-loader": "^0.11.2",
     "jest": "^21.0.1",
-    "prop-types": "^15.5.10",
     "prop-types-extra": "^1.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
