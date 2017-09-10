@@ -1,5 +1,21 @@
 <h1 align="center" markdown="1">React Web3 Network Status</h1>
-
+<p align="center" markdown="1">
+  <a href="https://travis-ci.org/rongierlach/react-web3-network-status">
+    <img src="https://travis-ci.org/rongierlach/react-web3-network-status.svg?branch=master" />
+  </a>
+  <a href="https://coveralls.io/github/rongierlach/react-web3-network-status?branch=master">
+    <img src="https://coveralls.io/repos/github/rongierlach/react-web3-newtork-status/badge.svg?branch=master" />
+  </a>
+  <a href="https://david-dm.org/rongierlach/react-web3-network-status">
+    <img src="https://david-dm.org/rongierlach/react-web3-network-status.svg" />
+  </a>
+  <a href="https://david-dm.org/rongierlach/react-web3-network-status#info=devDependencies">
+    <img src="https://david-dm.org/rongierlach/react-web3-network-status/dev-status.svg" />
+  </a>
+  <a href="https://standardjs.com">
+    <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" />
+  </a>
+</p>
 <p align="center">
 <img
   src="https://user-images.githubusercontent.com/4658359/30234946-21873ec8-94c8-11e7-88ee-296b098a49f8.gif"
