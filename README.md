@@ -1,14 +1,11 @@
 <h1 align="center" markdown="1">React Web3 Network Status</h1>
-<p align="center"><img
+
+<p align="center">
+<img
   src="https://user-images.githubusercontent.com/4658359/30234946-21873ec8-94c8-11e7-88ee-296b098a49f8.gif"
 /></p>
 
-A MetaMask inspired badge to tell users the status of their network connectivity.
-
-On click, navigates to the current account on EtherScan.  
-
-Simply drop-in with no configuration.  
-Fully customizable.
+A MetaMask inspired component to show users the status of their network connectivity.
 
 ## Installation
 Using npm:  
@@ -39,10 +36,6 @@ $ npm install
 $ npm run demo
 ```
 Then visit [localhost:3000](http://localhost:3000) in your browser.
-
-## Customization
-Component accepts a renderer per network id.  
-_Example coming soon..._
 
 ## Contributing
 To contribute effectively, follow these steps:
