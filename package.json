@@ -1,6 +1,6 @@
 {
   "name": "react-web3-network-status",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple and subtle Ethereum network status indicator inspired by MetaMask. 🌐🔌",
   "main": "lib/index.js",
   "scripts": {
