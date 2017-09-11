@@ -1,6 +1,8 @@
+// @flow
+import type { State } from '../../util/initialState'
 import defaultRenderers from '../util/networkRenderers'
 
-export const selectNetworkRenderer = (state, ownProps) => {
+export const selectNetworkRenderer = (state: State, ownProps) => {
   const { networkRenderers: customRenderers } = ownProps
   const { network: { id, listening }, defaultAccount } = state
   const networkRenderers = Object.assign({}, defaultRenderers, customRenderers)
