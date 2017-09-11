@@ -3,9 +3,9 @@
   <a href="https://travis-ci.org/rongierlach/react-web3-network-status">
     <img src="https://travis-ci.org/rongierlach/react-web3-network-status.svg?branch=master" />
   </a>
-  <a href="https://coveralls.io/github/rongierlach/react-web3-network-status?branch=master">
+  <!-- <a href="https://coveralls.io/github/rongierlach/react-web3-network-status?branch=master">
     <img src="https://coveralls.io/repos/github/rongierlach/react-web3-newtork-status/badge.svg?branch=master" />
-  </a>
+  </a> -->
   <a href="https://david-dm.org/rongierlach/react-web3-network-status">
     <img src="https://david-dm.org/rongierlach/react-web3-network-status.svg" />
   </a>
