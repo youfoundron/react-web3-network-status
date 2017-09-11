@@ -2,10 +2,16 @@ import React from 'react'
 import { Provider } from 'react-redux'
 
 import store from './state/store'
-import Web3NetworkStatus from './Web3NetworkStatus'
+import NetworkStatus from './NetworkStatus'
 
-export default props => (
+const ReactWeb3NetworkStatus = props => (
   <Provider store={store}>
-    <Web3NetworkStatus {...props} />
+    <NetworkStatus {...props} />
   </Provider>
 )
+
+if (typeof window === 'object') {
+  window.ReactWeb3NetworkStatus = ReactWeb3NetworkStatus
+}
+
+export default ReactWeb3NetworkStatus
