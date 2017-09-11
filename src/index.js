@@ -10,8 +10,4 @@ const ReactWeb3NetworkStatus = props => (
   </Provider>
 )
 
-if (typeof window === 'object') {
-  window.ReactWeb3NetworkStatus = ReactWeb3NetworkStatus
-}
-
 export default ReactWeb3NetworkStatus
