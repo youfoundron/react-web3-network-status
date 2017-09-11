@@ -1,9 +1,11 @@
-import types from '../constants/actionTypes'
+// @flow
 import initialState from '../store/initialState'
+import types from '../constants/actionTypes'
+import type { Action } from '../constants/actionTypes'
 
 const { network: defaultState } = initialState
 
-export default (state = defaultState, { type, payload }) => {
+export default (state = defaultState, { type, payload }: Action) => {
   switch (type) {
     case types.GET_NETWORK_ID_SUCCESS:
       return { ...state, id: payload }
