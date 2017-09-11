@@ -28,13 +28,14 @@ A MetaMask inspired component to show users the status of their network connecti
 
 ## Installation
 Using npm:  
-`$ npm install --save react-web3-network-status`  
+`$ npm install --save react-web3-network-status web3@^0.x.x babel-polyfill`  
 
 Using yarn:  
-`$ yarn add react-web3-network-status`
+`$ yarn add react-web3-network-status web3@^0.x.x babel-polyfill`
 
 ## Usage
 ```javascript
+import 'babel-polyfill'
 import React from 'react'
 import NetworkStatus from 'react-web3-network-status'
 
