@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import { optimize } from 'webpack'
+import { optimize, DefinePlugin } from 'webpack'
 import makeRule from 'webpack-make-rule'
 
 export default {
@@ -30,6 +30,11 @@ export default {
   plugins: [
     new optimize.UglifyJsPlugin({
       comments: false
+    }),
+    new DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
     })
   ]
 }
