@@ -1,6 +1,13 @@
+// @flow
 import React from 'react'
 
-const NetworkIcon = ({iconStyles: {content, ...style}}) => (
+type Props = {
+  iconStyles: {
+    content: string
+  }
+}
+
+const NetworkIcon = ({iconStyles: {content, ...style}}: Props) => (
   <div id='__network-icon__'>
     <icon
       style={style}
