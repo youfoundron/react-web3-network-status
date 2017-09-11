@@ -1,7 +1,8 @@
+// @flow
 import Web3 from 'web3'
 import Promise, { promisifyAll } from 'bluebird'
 
-export default () => new Promise((resolve, reject) => {
+export default (): Promise<any> => new Promise((resolve, reject) => {
   // Wait for loading completion to avoid race conditions with web3 injection timing.
   window.addEventListener('load', function () {
     let web3 = window.web3
