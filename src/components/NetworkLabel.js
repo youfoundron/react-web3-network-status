@@ -15,6 +15,7 @@ const NetworkLabel = ({name, type, color}: Props) => (
       #__network-label__ {
         display: flex;
         flex-direction: column;
+        text-align: left;
       }
     `}</style>
   </div>
