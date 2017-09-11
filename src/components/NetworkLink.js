@@ -17,7 +17,7 @@ const NetworkLink = ({etherScanUrl, defaultAccount, dispatch, children, ...props
     {children}
     <style jsx>{`
       #__network-status__ {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         line-height: 1em;
         font-size: 12px
@@ -32,7 +32,7 @@ const NetworkLink = ({etherScanUrl, defaultAccount, dispatch, children, ...props
     {children}
     <style jsx>{`
       #__network-status__ {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         line-height: 1em;
         font-size: 12px
