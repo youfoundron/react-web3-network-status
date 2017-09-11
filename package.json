@@ -47,7 +47,7 @@
   },
   "peerDependencies": {
     "react": "^15.6.1",
-    "web3": "^0.14.1"
+    "web3": "^0.x.x"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -78,7 +78,7 @@
     "style-loader": "^0.18.2",
     "styled-jsx": "^1.0.10",
     "tachyons": "^4.8.1",
-    "web3": "^0.14.1",
+    "web3": "^0.x.x",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.7.1",
     "webpack-make-rule": "^2.0.0"
