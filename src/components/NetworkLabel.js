@@ -1,6 +1,13 @@
+// @flow
 import React from 'react'
 
-const NetworkLabel = ({name, type, color}) => (
+type Props = {
+  name: string,
+  type: string,
+  color: string
+}
+
+const NetworkLabel = ({name, type, color}: Props) => (
   <div id='__network-label__' style={{color}}>
     <span>{name}</span>
     <span>{type}</span>
