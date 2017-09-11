@@ -6,7 +6,7 @@
   ],
   plugins: [
     "styled-jsx/babel",
-    "transform-regenerator",
+    
     "transform-object-rest-spread",
     "react-flow-props-to-prop-types"
   ]
