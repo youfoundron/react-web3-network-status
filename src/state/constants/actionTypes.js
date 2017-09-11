@@ -53,6 +53,11 @@ export type ActionType =
   | ReceiveType
   | ChangedType
 
+export type Action = {
+  type: ActionType,
+  payload?: any
+}
+
 export default actionTypesArr.reduce((actionTypes, type: string) => {
   actionTypes[type] = 'web3/' + type
   return actionTypes
