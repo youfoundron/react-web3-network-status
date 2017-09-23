@@ -56,7 +56,7 @@ import { Stateless as NetworkStatus } from 'react-web3-network-status'
 const MyApp = () => (
   <div>
     <NetworkStatus
-      networkId={1} // 1, 3, 4, 42, null, 'not-listening', or 'account-not-unlocked'
+      networkId='1' // 1, 3, 4, 42, null, 'not-listening', or 'account-not-unlocked'
       address='0xe80C8E9ecB8e0F8CF75f4C5D1c15A065575a1cb9' // optional
     />
   </div>
