@@ -1,8 +1,8 @@
 <h1 align="center" markdown="1">React Web3 Network Status</h1>
 <p align="center" markdown="1">
-  <!-- <a href="https://badge.fury.io/js/react-web3-network-status">
+  <a href="https://badge.fury.io/js/react-web3-network-status">
     <img src="https://badge.fury.io/js/react-web3-network-status.svg" />
-  </a> -->
+  </a>
   <!-- <a href="https://travis-ci.org/rongierlach/react-web3-network-status">
     <img src="https://travis-ci.org/rongierlach/react-web3-network-status.svg?branch=master" />
   </a> -->
