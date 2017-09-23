@@ -1,6 +1,6 @@
 // @flow
 import React from 'react'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 
 type Props = {
   etherScanUrl: string,
@@ -45,10 +45,12 @@ const NetworkLink = ({etherScanUrl, defaultAccount, dispatch, children, ...props
   </span>
 )
 
-const mapStateToProps = state => ({
-  defaultAccount: state.defaultAccount
-})
+// const mapStateToProps = state => ({
+//   defaultAccount: state.defaultAccount
+// })
 
-export default connect(
-  mapStateToProps
-)(NetworkLink)
+// export default connect(
+//   mapStateToProps
+// )(NetworkLink)
+
+export default NetworkLink
