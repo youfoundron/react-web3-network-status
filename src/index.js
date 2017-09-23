@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 
 import store from './state/store'
 import NetworkStatus from './NetworkStatus'
+import NetworkStatusStateless from './Stateless'
 
 const ReactWeb3NetworkStatus = props => (
   <Provider store={store}>
@@ -11,3 +12,4 @@ const ReactWeb3NetworkStatus = props => (
 )
 
 export default ReactWeb3NetworkStatus
+export const Stateless = NetworkStatusStateless

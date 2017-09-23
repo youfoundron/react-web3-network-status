@@ -6,6 +6,7 @@ const NetworkStatus = ({ dispatch, networkRenderer, ...props }) => (
 )
 
 const mapStateToProps = (state, ownProps) => ({
+  defaultAccount: state.defaultAccount,
   networkRenderer: selectNetworkRenderer(state, ownProps)
 })
 
