@@ -3,9 +3,9 @@ import { optimize, DefinePlugin } from 'webpack'
 import makeRule from 'webpack-make-rule'
 
 export default {
-  entry: resolve(__dirname, './src/index.js'),
+  entry: resolve(__dirname, '../src/Stateful.js'),
   output: {
-    path: resolve(__dirname, './lib'),
+    path: resolve(__dirname, '../lib'),
     filename: 'index.js',
     library: 'ReactWeb3NetworkStatus',
     libraryTarget: 'umd'

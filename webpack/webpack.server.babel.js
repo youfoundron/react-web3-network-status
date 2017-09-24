@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import makeRule from 'webpack-make-rule'
 import { HotModuleReplacementPlugin } from 'webpack'
 
-const demoDir = resolve(__dirname, 'demo')
+const demoDir = resolve(__dirname, '../demo')
 
 export default {
   entry: resolve(demoDir, 'js/index.js'),

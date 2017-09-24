@@ -1,13 +1,13 @@
 {
   "name": "react-web3-network-status",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Simple and subtle Ethereum network status indicator inspired by MetaMask. 🌐🔌",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run clean && npm run build",
     "clean": "rimraf lib",
-    "build": "webpack",
-    "demo": "webpack-dev-server -d --config webpack.server.babel.js",
+    "build": "webpack --config ./webpack/webpack.config.babel.js",
+    "demo": "webpack-dev-server -d --config ./webpack/webpack.server.babel.js",
     "lint": "standard | snazzy",
     "test": "jest",
     "coverage": "jest --coverage",
