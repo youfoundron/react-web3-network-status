@@ -51,7 +51,7 @@ export default MyApp
 If you're already managing state and wish to explicitly pass a network id, try out the stateless version:
 ```javascript
 import React from 'react'
-import { Stateless as NetworkStatus } from 'react-web3-network-status'
+import NetworkStatus from 'react-web3-network-status/stateless'
 
 const MyApp = () => (
   <div>
