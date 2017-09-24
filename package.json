@@ -50,7 +50,7 @@
     "web3": "^0.x.x"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8",
     "babel-jest": "^21.0.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-react-flow-props-to-prop-types": "^0.15.0",
