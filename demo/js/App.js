@@ -1,6 +1,7 @@
 import React from 'react'
 
-import NetworkStatus from '../../src'
+import NetworkStatus from '../../src/Stateful'
+// import NetworkStatusStateless from '../../src/Stateless'
 
 const App = () => (
   <div className='flex flex-column min-vh-100 helvetica'>
@@ -13,6 +14,7 @@ const App = () => (
       </nav>
       <div className='dib fr v-mid'>
         <NetworkStatus />
+        {/* <NetworkStatusStateless networkId={1} /> */}
       </div>
     </header>
     <main className='flex-auto mt5'>
