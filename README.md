@@ -27,7 +27,8 @@
   src="https://user-images.githubusercontent.com/4658359/30234946-21873ec8-94c8-11e7-88ee-296b098a49f8.gif"
 /></p>
 
-A MetaMask inspired component to show users the status of their network connectivity.
+A MetaMask inspired component to show users the status of their network connectivity.  
+Now [officially endorsed](https://twitter.com/metamask_io/status/928031347494461442)!
 
 ## Installation
 Using npm:  
